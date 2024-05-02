@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+    line-height: 1.5;
+    font-family: "Roboto" sans-serif;
+    background-image: url(./th\ \(1\)\ \(1\)\ \(1\).jpg);
+}
+
+input {
+    appearance: none;
+    border-radius: 5px;
+}
+
+.card {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px 10px rgb(#999);
+    padding: 10px;
+}
+
+.card-img {
+    background-image: url(./th\ \(2\).jpg);
+    border-radius: 10px;
+    padding-bottom: 28%;
+    color: azure;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.text {
+    position: absolute;
+    font-size: 30;
+    left: 3%;
+    font: inherit;
+}
+
+.card-input {
+    padding: 6px 12px 0;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-label {
+    color: black;
+    position: relative;
+    top: 0.25rem;
+    transform: 25s ease;
+    margin-bottom: 2px;
+    font: inherit;
+}
+
+.input-input {
+    border: 0;
+    z-index: 1;
+    box-shadow: 2px rgb(#999);
+    font: inherit;
+    font-size: 0.75rem;
+    padding: 0.25rem 0rem;
+}
+
+.login {
+    margin-top: 2px;
+}
+
+.button {
+    text-decoration: none;
+    font: inherit;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1px;
+    background-color: blueviolet;
+    max-width: 500px;
+    color: azure;
+    border: 0px;
+}
+
+.card-info {
+    text-align: center;
+    padding: 10px 10px;
+}
