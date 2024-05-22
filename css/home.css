@@ -4,19 +4,21 @@
     box-sizing: border-box;
     background-color: white;
 }
+
 .sdt {
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
+
 .sdt div {
- display: flex;
- width: 300px;
+    display: flex;
+    width: 300px;
 }
 
 .sdt div h3 {
-  display: flex;
-  padding-top: 20px;
+    display: flex;
+    padding-top: 20px;
 }
 
 .a {
@@ -40,7 +42,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    line-height: 40px ;
+    line-height: 40px;
 }
 
 .navi-con {
@@ -64,4 +66,46 @@
 
 .text:hover {
     color: white;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.item1 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-item1 {
+    background-image: url(./1000z-launch-website-banner_1695177885.webp);
+}
+
+.item-item2 {
+    background-image: url(./banner-sale-12_1695182579.webp);
+}
+
+.item-item3 {
+    background-image: url(./nanoflare-800_1698800723.webp);
+}
+
+.item-item4 {
+    background-image: url(./ynx-eclp-banner_1695178004.webp)
+}
+
+.container2 {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.item2 {
+    background-image: url(./Screenshot\ 2024-05-21\ 155152.png);
+    height: 60px;
+    width: 1300px;
 }
