@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
 }
 
 .sdt {
@@ -19,22 +21,6 @@
 .sdt div h3 {
     display: flex;
     padding-top: 20px;
-}
-
-.a {
-    display: flex;
-    margin-top: 15px;
-}
-
-.b {
-    display: flex;
-    margin-top: 15px;
-    margin-left: 500px;
-}
-
-.c {
-    display: flex;
-    margin-left: -100px;
 }
 
 .navigation {
