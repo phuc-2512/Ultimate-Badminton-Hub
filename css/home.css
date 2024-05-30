@@ -4,24 +4,10 @@
     box-sizing: border-box;
     background-color: white;
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
-.sdt {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
 
-.sdt div {
-    display: flex;
-    width: 300px;
-}
-
-.sdt div h3 {
-    display: flex;
-    padding-top: 20px;
-}
 
 .navigation {
     background-color: #E95211;
