@@ -7,7 +7,7 @@ var password = document.getElementById("password");
 
 function checkValue(event) {
   event.preventDefault();
-  if (text === "") {
+  if (ten === "") {
     alert("tên không để trống")
   } else if (email === "") {
     alert("email không để trống")
